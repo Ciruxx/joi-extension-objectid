@@ -1,9 +1,24 @@
 {
-  "name": "joi-extension-objectid",
-  "version": "1.0.0",
+  "name": "@ciruxx/joi-extension-objectid",
+  "version": "1.0.1",
   "description": "A Joi extension for validate ObjectId",
   "author": "Ciro Santillo <ciro1693@gmail.com>",
   "main": "index.js",
+  "keywords": [
+    "joi",
+    "extension",
+    "validate",
+    "mongodb",
+    "objectid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ciruxx/joi-extension-objectid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ciruxx/joi-extension-objectid/issues"
+  },
+  "license": "Apache-2.0",
   "scripts": {
     "test": "node ./test"
   },
@@ -12,5 +27,9 @@
   },
   "devDependencies": {
     "joi": "^17.3.0"
+  },
+  "homepage": "https://github.com/Ciruxx/joi-extension-objectid#readme",
+  "directories": {
+    "test": "test"
   }
 }

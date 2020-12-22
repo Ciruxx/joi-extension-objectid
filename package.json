@@ -1,7 +1,16 @@
 {
   "name": "joi-extension-objectid",
   "version": "1.0.0",
+  "description": "A Joi extension for validate ObjectId",
+  "author": "Ciro Santillo <ciro1693@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
   "dependencies": {
-
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "joi": "^17.3.0"
   }
 }

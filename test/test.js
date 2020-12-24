@@ -2,22 +2,23 @@ const JoiExtensionObjectId = require('../');
 const Joi = require('joi').extend(JoiExtensionObjectId);
 const {ObjectID} = require('mongodb');
 
+const validObjectId = "5fd777d57fcb54c356763034";
 const schema = Joi.object({
     objectIdKey: Joi.objectId()
 });
 
 test('is a valid ObjectID', async () => {
     const data = await schema.validateAsync({
-        objectIdKey: "5fd777d57fcb54c356763034"
+        objectIdKey: validObjectId
     })
-    expect(ObjectID.isValid(data.objectIdKey)).toBe(true);
+    expect(ObjectID.isValid(data.objectIdKey)).toBeTruthy();
 });
 
 test('is a valid ObjectID', async () => {
     const data = await schema.validateAsync({
-        objectIdKey: "5fd777d57fcb54c356763034"
+        objectIdKey: validObjectId
     })
-    expect(data.objectIdKey instanceof ObjectID).toBe(true);
+    expect(data.objectIdKey instanceof ObjectID).toBeTruthy();
 });
 
 test('isn\'t a valid ObjectID', async () => {

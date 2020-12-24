@@ -1,6 +1,6 @@
 {
   "name": "@ciruxx/joi-extension-objectid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Joi extension for validate ObjectId",
   "author": "Ciro Santillo <ciro1693@gmail.com>",
   "main": "index.js",

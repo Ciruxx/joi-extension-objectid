@@ -3,8 +3,7 @@
 [![version](https://img.shields.io/npm/v/@ciruxx/joi-extension-objectid)][npm]
 [![license](https://img.shields.io/npm/l/@ciruxx/joi-extension-objectid)][npm]
 
-[npm]: https://www.npmjs.com/package/joi-extension-objectid
-[build]: https://github.com/dszakallas/joi-extension-objectid/actions?query=branch%3Amaster+workflow%3A%22Node.js+CI%22
+[npm]: https://www.npmjs.com/package/@ciruxx/joi-extension-objectid
 
 ObjectId extension for the [Joi][] validation library
 
